@@ -2,6 +2,10 @@
 
 Open `index.html` in a browser. It uses Bootstrap 5 from a CDN alongside its own stylesheet and a small navigation script. The site uses the name Sambodhi and links to the public `sambodhi7` GitHub profile; it does not display an email address.
 
-The local repository already has an initial commit, a `feature/project-filters` branch, a feature commit, and a merge into `main`. You can inspect them with `git log --oneline --graph --all`. GitHub authentication is still needed to push the repository and demonstrate a GitHub pull request. Publish `main` with GitHub Pages and record the repository, pull request, and live URLs in the submission.
+The repository has an initial commit, a `feature/project-filters` branch and merge, and a merged `feature/skip-link` pull request. Inspect them with `git log --oneline --graph --all`.
+
+- Repository: https://github.com/sambodhi7/tpds-portfolio
+- Pull request: https://github.com/sambodhi7/tpds-portfolio/pull/1
+- Live site: https://sambodhi7.github.io/tpds-portfolio/
 
 See `WORKFLOW.md` for the local branch, merge, clone, and pull record.
