@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root { --ink:#17251d; --muted:#617067; --cream:#f8f7f1; --green:#bce670; --line:#e1e5d9; }
+html { scroll-behavior:smooth; scroll-padding-top:80px; }
+body { background:var(--cream); color:var(--ink); font-family:'DM Sans',sans-serif; }
+h1,h2,h3,.navbar-brand { font-family:Manrope,sans-serif; }
+h2 { font-size:clamp(2.2rem,4vw,3.3rem); font-weight:800; letter-spacing:-.055em; }
+h3 { font-size:1.3rem; font-weight:800; letter-spacing:-.035em; }
+p { line-height:1.75; }
+a { color:inherit; }
+.navbar { background:rgba(248,247,241,.94); backdrop-filter:blur(16px); border-bottom:1px solid var(--line); padding:15px 0; }
+.navbar-brand { font-weight:800; letter-spacing:-.07em; font-size:1.7rem; }
+.navbar-brand span { color:#689630; }
+.nav-link { font-weight:600; font-size:.92rem; color:var(--ink); }
+.nav-link:hover { color:#568122; }
+.contact-link { border:1px solid var(--ink); border-radius:100px; padding:9px 18px!important; }
+.contact-link:hover { background:var(--ink); color:white; }
+.hero { min-height:720px; padding:185px 0 120px; display:flex; align-items:center; }
+.eyebrow { color:#5f862e; font-weight:800; letter-spacing:.16em; font-size:.75rem; text-transform:uppercase; margin-bottom:20px; }
+h1 { font-size:clamp(3.6rem,6vw,6.4rem); font-weight:800; line-height:1.06; letter-spacing:-.075em; max-width:740px; }
+h1 em { font-style:normal; color:#75a23b; }
+.hero-copy { color:var(--muted); font-size:1.17rem; max-width:580px; margin:28px 0 34px; }
+.button { display:inline-flex; gap:24px; align-items:center; justify-content:center; text-decoration:none; border-radius:100px; padding:14px 23px; font-size:.92rem; font-weight:800; transition:transform .2s,background .2s; }
+.button:hover { transform:translateY(-3px); }
+.button-primary { background:var(--ink); color:white; }
+.button-primary:hover { background:#324d33; color:white; }
+.button-secondary { border:1px solid #c5ccbc; }
+.button-secondary:hover { background:white; }
+.hero-card { background:#213a2b; color:white; border-radius:26px; min-height:345px; transform:rotate(3deg); box-shadow:25px 25px 0 #e1e9d5; position:relative; padding:22px 26px; }
+.card-top { display:flex; gap:7px; align-items:center; border-bottom:1px solid #49614e; padding-bottom:18px; margin-bottom:26px; }
+.card-top span { width:9px; height:9px; border-radius:50%; background:#8daf88; }
+.card-top small { margin-left:auto; color:#9eb5a3; font-family:monospace; }
+.code-line { font:clamp(.75rem,1.4vw,.95rem)/2.1 monospace; color:#e5efe3; white-space:nowrap; }
+.code-line span { color:#7a9d80; margin-right:16px; }
+.code-line strong { color:#c6ed89; font-weight:500; }
+.card-badge { position:absolute; right:-16px; bottom:-18px; background:var(--green); color:#273c22; border-radius:100px; padding:13px 19px; font-weight:800; font-size:.82rem; transform:rotate(-7deg); }
+.section { padding:110px 0; }
+.about { background:white; }
+.about .lead { font-size:1.65rem; line-height:1.45; font-weight:700; letter-spacing:-.035em; }
+.about p:not(.lead):not(.eyebrow) { color:var(--muted); max-width:720px; }
+.skills { background:#eff2e9; }
+.skill-card { background:white; border:1px solid var(--line); padding:34px; border-radius:20px; height:100%; }
+.skill-icon { display:grid; place-items:center; background:#eaf4d9; width:50px; height:50px; border-radius:13px; font-size:1.25rem; font-weight:800; margin-bottom:32px; }
+.skill-card p,.project-card p,.section-heading>p { color:var(--muted); }
+.tags { display:flex; flex-wrap:wrap; gap:7px; margin-top:25px; }
+.tags span { border:1px solid #dbe2d3; border-radius:100px; padding:6px 11px; font-size:.73rem; font-weight:700; }
+.section-heading { display:flex; justify-content:space-between; align-items:end; gap:20px; }
+.project-card { background:white; border:1px solid var(--line); border-radius:20px; overflow:hidden; height:100%; }
+.project-art { height:280px; position:relative; display:grid; place-items:center; overflow:hidden; }
+.project-art>span { position:absolute; top:20px; left:25px; font:700 .8rem monospace; }
+.art-one { background:#dceacb; }
+.art-two { background:#e9e1d1; }
+.art-window { background:white; width:70%; height:73%; border-radius:13px; box-shadow:0 20px 50px #6d85504d; padding:25px; transform:rotate(-7deg); }
+.art-bar { height:14px; width:55%; background:#294535; border-radius:8px; margin-bottom:25px; }
+.art-row { height:12px; width:70%; background:#dce8d0; border-radius:8px; margin:13px 0; }
+.art-row.wide { width:90%; }.art-row.short { width:45%; }
+.art-circle { width:210px; height:210px; background:#d3c7b4; border-radius:50%; }
+.art-small-circle { position:absolute; width:110px; height:110px; border:22px solid #536f57; border-radius:50%; margin-left:-170px; margin-top:80px; }
+.art-chart { position:absolute; display:flex; align-items:end; gap:9px; height:110px; margin-left:150px; margin-top:70px; }
+.art-chart i { display:block; width:24px; background:#49654e; border-radius:5px 5px 0 0; height:45%; }.art-chart i:nth-child(2) { height:80%; }.art-chart i:nth-child(3) { height:60%; }.art-chart i:nth-child(4) { height:100%; }
+.project-body { padding:28px 32px 35px; }.project-number { text-transform:uppercase; letter-spacing:.12em; color:#60892f; font-size:.71rem; font-weight:800; margin-bottom:10px; }
+.contact { background:#203a2b; color:white; text-align:center; }.contact .eyebrow { color:var(--green); }.contact h2 { font-size:clamp(2.5rem,5vw,4.5rem); }.contact p:not(.eyebrow) { color:#c7d7ca; max-width:500px; margin:20px auto 30px; }.button-light { background:var(--green); color:var(--ink); }.button-light:hover { background:#d1f396; }
+footer { background:#182b20; color:#c1d0c3; padding:30px 0; font-size:.85rem; }footer a { color:inherit; text-decoration:none; }
+@media (max-width:991px) { .hero { padding:145px 0 100px; }.hero-card { max-width:500px; margin:15px auto; }.section { padding:85px 0; }.navbar-nav { padding-top:20px; }.contact-link { display:inline-block; } }
+@media (max-width:575px) { .hero-card { min-height:295px; padding:18px; box-shadow:12px 12px 0 #e1e9d5; }.code-line span { margin-right:7px; }.card-badge { right:0; }.section-heading { display:block; } }
