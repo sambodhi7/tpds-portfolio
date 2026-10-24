@@ -3,6 +3,7 @@
 :root { --ink:#17251d; --muted:#617067; --cream:#f8f7f1; --green:#bce670; --line:#e1e5d9; }
 html { scroll-behavior:smooth; scroll-padding-top:80px; }
 body { background:var(--cream); color:var(--ink); font-family:'DM Sans',sans-serif; }
+.skip-link { position:fixed; top:-60px; left:16px; z-index:2000; background:var(--ink); color:white; padding:10px 16px; border-radius:8px; }.skip-link:focus { top:12px; color:white; }
 h1,h2,h3,.navbar-brand { font-family:Manrope,sans-serif; }
 h2 { font-size:clamp(2.2rem,4vw,3.3rem); font-weight:800; letter-spacing:-.055em; }
 h3 { font-size:1.3rem; font-weight:800; letter-spacing:-.035em; }
