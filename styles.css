@@ -45,6 +45,7 @@ h1 em { font-style:normal; color:#75a23b; }
 .tags { display:flex; flex-wrap:wrap; gap:7px; margin-top:25px; }
 .tags span { border:1px solid #dbe2d3; border-radius:100px; padding:6px 11px; font-size:.73rem; font-weight:700; }
 .section-heading { display:flex; justify-content:space-between; align-items:end; gap:20px; }
+.project-filters { display:flex; flex-wrap:wrap; gap:8px; margin-top:32px; }.project-filter { border:1px solid #d7e0d1; background:transparent; color:var(--muted); border-radius:100px; padding:9px 17px; font-size:.82rem; font-weight:700; }.project-filter.active { background:var(--ink); color:white; border-color:var(--ink); }[data-project][hidden] { display:none; }
 .project-card { background:white; border:1px solid var(--line); border-radius:20px; overflow:hidden; height:100%; }
 .project-art { height:280px; position:relative; display:grid; place-items:center; overflow:hidden; }
 .project-art>span { position:absolute; top:20px; left:25px; font:700 .8rem monospace; }
